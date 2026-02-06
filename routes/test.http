@@ -1,0 +1,10 @@
+POST http://localhost:5000/api/transactions/add
+Content-Type: application/json
+
+{
+  "amount": 300,
+  "type": "expense",
+  "category": "Snacks",
+  "division": "personal",
+  "description": "Evening snacks"
+}
